@@ -1,0 +1,38 @@
+
+master-automation
+master-automation,10.140.0.8,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 806ms,rtt min/avg/max/mdev = 259.917/260.009/260.088/0.055 ms, pipe 2
+master-automation,10.128.0.8,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 109.779/109.805/109.830/0.019 ms
+master-automation,10.158.0.8,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 199.650/199.708/199.837/0.067 ms
+master-automation,10.152.0.8,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 802ms,rtt min/avg/max/mdev = 278.299/278.367/278.437/0.048 ms, pipe 2
+master-automation,10.156.0.13,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 814ms,rtt min/avg/max/mdev = 0.040/0.054/0.063/0.007 ms
+
+ping_metrics
+
+worker-node1
+worker-node1,10.156.0.13,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 813ms,rtt min/avg/max/mdev = 0.043/0.065/0.098/0.021 ms
+worker-node1,10.128.0.8,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 802ms,rtt min/avg/max/mdev = 109.752/109.793/109.861/0.037 ms
+worker-node1,10.158.0.8,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 199.540/199.634/199.777/0.079 ms
+worker-node1,10.152.0.8,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 805ms,rtt min/avg/max/mdev = 278.362/278.393/278.437/0.026 ms, pipe 2
+worker-node1,10.140.0.8,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 805ms,rtt min/avg/max/mdev = 259.937/260.039/260.109/0.058 ms, pipe 2
+
+worker-node2
+worker-node2,10.156.0.13,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 819ms,rtt min/avg/max/mdev = 0.045/0.056/0.069/0.008 ms
+worker-node2,10.140.0.8,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 259.892/259.950/259.988/0.034 ms, pipe 2
+worker-node2,10.158.0.8,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 802ms,rtt min/avg/max/mdev = 199.606/199.691/199.822/0.082 ms
+worker-node2,10.152.0.8,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 807ms,rtt min/avg/max/mdev = 278.334/278.408/278.470/0.050 ms, pipe 2
+worker-node2,10.128.0.8,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 803ms,rtt min/avg/max/mdev = 109.760/109.787/109.830/0.025 ms
+
+worker-node3
+worker-node3,10.156.0.13,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 815ms,rtt min/avg/max/mdev = 0.044/0.056/0.066/0.008 ms
+worker-node3,10.140.0.8,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 259.995/260.048/260.125/0.048 ms, pipe 2
+worker-node3,10.128.0.8,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 109.737/109.822/109.887/0.052 ms
+worker-node3,10.152.0.8,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 806ms,rtt min/avg/max/mdev = 278.351/278.419/278.493/0.052 ms, pipe 2
+worker-node3,10.158.0.8,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 199.646/199.724/199.908/0.096 ms
+
+worker-node4
+worker-node4,10.156.0.13,master-automation,5 packets transmitted, 5 received, 0% packet loss, time 822ms,rtt min/avg/max/mdev = 0.037/0.055/0.082/0.014 ms
+worker-node4,10.140.0.8,worker-node1,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 259.894/259.951/260.013/0.045 ms, pipe 2
+worker-node4,10.128.0.8,worker-node2,5 packets transmitted, 5 received, 0% packet loss, time 803ms,rtt min/avg/max/mdev = 109.771/109.835/109.904/0.057 ms
+worker-node4,10.158.0.8,worker-node3,5 packets transmitted, 5 received, 0% packet loss, time 801ms,rtt min/avg/max/mdev = 199.603/199.659/199.693/0.033 ms
+worker-node4,10.152.0.8,worker-node4,5 packets transmitted, 5 received, 0% packet loss, time 804ms,rtt min/avg/max/mdev = 278.269/278.376/278.460/0.069 ms, pipe 2
+
